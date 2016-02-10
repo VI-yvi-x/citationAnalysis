@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "#Read data.\nCitations = read.csv(\"citations.csv\")\nMerits = read.csv(\"merits.csv\")\nCombineStatistics = read.csv(\"combines.csv\")\n\n#Investigate data.\nsummary(Citations)\nstr(Citations)\n",
+    "contents" : "#Read data.\nCitations = read.csv(\"citations.csv\")\nMerits = read.csv(\"merits.csv\")\nCombineStatistics = read.csv(\"combines.csv\")\nExampleSet = read.csv(\"example.csv\")\nTaxonomy = read.csv(\"taxonomy.csv\")\n\n#Investigate data.\nsummary(Citations)\nstr(Citations)\n\n#Visuals\ninstall.packages(\"ggplot\")\nlibrary(ggplot)\n\nstr(Taxonomy)\n\nplot(ExampleSet$Housing, ExampleSet$Food)\nhist(Taxonomy$Name)\n",
     "created" : 1455112186716.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "869604273",
+    "hash" : "1651162963",
     "id" : "2D88FCC5",
-    "lastKnownWriteTime" : 1455112343,
-    "last_content_update" : 1455112343196,
+    "lastKnownWriteTime" : 1455115462,
+    "last_content_update" : 1455115462679,
     "path" : "D:/Labs/citationAnalysis/experiments.R",
     "project_path" : "experiments.R",
     "properties" : {
