@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#Read data.\nCitations = read.csv(\"citations.csv\")\nMerits = read.csv(\"merits.csv\")\nCombineStatistics = read.csv(\"combines.csv\")\n\n#Investigate data.\nsummary(Citations)\nstr(Citations)\n",
+    "created" : 1455112186716.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "869604273",
+    "id" : "2D88FCC5",
+    "lastKnownWriteTime" : 1455112343,
+    "last_content_update" : 1455112343196,
+    "path" : "D:/Labs/citationAnalysis/experiments.R",
+    "project_path" : "experiments.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
